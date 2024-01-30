@@ -1,0 +1,202 @@
+body {
+    margin: 0%;
+}
+
+nav{
+    background-color: whitesmoke;
+    height: 30px;
+    display:flex;
+    justify-content: right;
+    padding: 10px;
+}
+
+.head_link:hover {
+    font-weight: bolder;
+}
+
+.head_link {
+    font-size: large;
+    color: black;
+    font-family: "Mulish", sans-serif;
+ }
+
+ footer {
+    background-color: gray;
+    height: 45px;
+    display: flex;
+    justify-content: center;
+ }
+
+ .footer_link:hover {
+    font-weight: bolder;
+ }
+
+ .footer_link {
+    color: black;
+    font-family: "Mulish", sans-serif;
+    font-weight: lighter;
+ }
+ 
+ section {
+    padding: 15px;
+ }
+
+ a:hover {
+    color:burlywood;
+    font-weight: bolder;
+ }
+
+ a {
+    color: darkred;
+    text-decoration: none;
+ }
+ 
+ .intro {
+    width: auto;
+    height: 710px;
+    background-size: cover;
+    background-position: center;  
+    padding: 20px; 
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+ }
+
+ .box {
+    width: auto;
+    height: auto;
+    background-color: rgba(0,0,0,.8);
+    color: white;
+    text-align: center;  
+    padding: 10px;
+ }
+
+ h1, ul, dl {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+ }
+
+h2, h3 {
+    font-family: "Mulish", sans-serif;
+    font-size: large;
+    font-weight: lighter;
+    font-style: normal;
+}
+
+.headshot {
+    border-radius: 50%;
+}
+
+
+.section2 {
+    display: flex;
+    justify-content: center;  
+}
+
+.text {
+    max-width: 300px;
+    padding-left: 100px;
+}
+
+section {
+    background-color: whitesmoke;
+}
+
+p {
+    font-family: "Mulish", sans-serif;
+    font-weight: lighter;
+}
+
+#hello {
+    font-family: "Quattrocento Sans", sans-serif;
+    font-weight: bolder;
+}
+
+hr {
+    width: 75%;
+    border-style: dashed;
+    border-width: thin;
+}
+
+.img1, .img2 {
+    width: 300px;
+    position: absolute;
+    border-radius: 50%;
+    top: 10%;
+}
+
+.img1 {
+   left: 100px;
+}
+
+.img2 {
+    right: 100px;
+}
+
+.first {
+    display: flex;
+}
+
+.card {
+    box-shadow: 8px 8px 8px #DEE2E6;
+    border-radius: 15px;
+    padding: 16px;
+    background-color: #F8EDEB;
+}
+
+.card img {
+    width:100%;
+}
+
+.three-col {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 20px;
+}
+
+.card h3 {
+    font-size: x-large;
+    font-weight: lighter;
+}
+
+#about {
+    font-size: 30px;
+}
+
+ul {
+    display: grid;
+    list-style: circle;
+}
+
+dl {
+    display: grid;
+}
+
+.one-col {
+    display: flex;
+    grid-template-columns: 1fr;
+    padding: 10px;
+    justify-content: space-around;
+}
+
+form {
+    font-family: "Mulish", sans-serif;
+    font-weight: lighter;
+
+}
+
+textarea, input {
+    border-radius:  50px 25px
+}
+
+.con {
+    width: auto;
+    height: 710px;
+    background-size: cover;
+    background-position: center;  
+    padding: 20px; 
+    text-align: center;
+    
+}
